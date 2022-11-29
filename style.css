@@ -98,14 +98,20 @@ body{
 
 .container-menu li{
 padding: 10px;  
-          border-radius: px;
           display: flex;
+          margin-top: 20px;
           align-items: center;
+          transition:all 800ms ease-in;
+
 }
 
 .container li span{
           padding-left: 35px;
+          background-color: #ADE792;
+          transition:all 800ms ease-in;
+
 }
+
 
 .container li a{
           text-decoration: none;
@@ -116,11 +122,11 @@ padding: 10px;
           align-items: center;
           background: var(--primary-color-light);
           border-radius: 6px;
-          transition: var(--transition4);
+          transition:all 800ms ease-in;
+
 }
 
 .container-menu li a:hover{
-          background: var(--primary-color);
           color: var(--primary-color-light);
 
 }
@@ -196,9 +202,7 @@ padding: 10px;
     width: 90px;
 }
 
-.menuDesplegable li span {
-    opacity: 0;
-}
+
 
 
        .menuDesplegable header{
@@ -259,6 +263,7 @@ padding: 10px;
 
 .container li span{
        padding-left: 60px;
+       transition: all 600ms ease;
 }
 
 .container li a{
@@ -270,12 +275,19 @@ padding: 10px;
        align-items: center;
        background: var(--primary-color-light);
        border-radius: 6px;
-       transition: var(--transition4);
+       transition:all 800ms ease-in;
+}
+
+.menuDesplegable li a:hover{
+       background:rgba(65, 1, 1, 0);
+       color: var(--primary-color-light);
 }
 
 .container-menu li a:hover{
-       background: var(--primary-color);
-       color: var(--primary-color-light);
+       background-color: var(--text-color);
+       border-radius: 30px;
+       padding: 5px;
+       padding-right: 25px;
 }
 
 
