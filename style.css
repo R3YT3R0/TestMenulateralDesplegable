@@ -274,7 +274,7 @@ padding: 10px;
 }
 
 .container-menu li a:hover{
-       background: var(--primary-color);
+       background: transparent;
        color: var(--primary-color-light);
 }
 
